@@ -14,5 +14,5 @@ List func(List fruits){
 }
 
 void main() {
-  print(func(['apple','hello','arbuz','apple']));
+  print(func(['apple','hello','apple','arbuz','apple']));
 }
