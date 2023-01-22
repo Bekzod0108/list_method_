@@ -10,7 +10,8 @@
 List func(List numbers, int i){
   int x=numbers[i];
   numbers.remove(x);
-  return numbers;
+  List a=[numbers[i]];
+  return a;
 }
 
 void main() {
