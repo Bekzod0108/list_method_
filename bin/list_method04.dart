@@ -8,8 +8,6 @@
         list: return answer
 */
 List func(List numbers, int i){
-  int x=numbers[i];
-  numbers.remove(x);
   List a=[numbers[i]];
   return a;
 }
