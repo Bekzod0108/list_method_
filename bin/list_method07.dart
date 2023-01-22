@@ -6,5 +6,16 @@
     Returns:
         int: return answer
 */
+int func(List list01){
+  int x=0;
+  for(int a=0; a<list01.length; a++){
+    if(list01[a]==0){
+      x++;
+    }
+  }
+  return x;
+}
 
-void main() {}
+void main() {
+  print(func([0,1,0,1,0,1]));
+}

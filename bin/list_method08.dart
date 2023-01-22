@@ -6,5 +6,13 @@
     Returns:
         list: return answer
 */
+List func(List fruits){
+  for(int a=0; a<fruits.length; a++){
+    fruits.remove('apple');
+  }
+  return fruits;
+}
 
-void main() {}
+void main() {
+  print(func(['apple','hello','arbuz','apple']));
+}

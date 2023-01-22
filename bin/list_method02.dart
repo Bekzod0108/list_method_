@@ -7,6 +7,12 @@
         i(int): parameter
     Returns:
         list: return answer 
-*/
+/ */
+List func(List fruits, String x, int i){
+  fruits.insert(i, x);
+  return fruits;
 
-void main() {}
+}
+void main() {
+  print(func(['mango', 'apple'], 'strovberry', 1));
+}

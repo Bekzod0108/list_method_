@@ -6,5 +6,16 @@
     Returns:
         list: return answer
 */
+List func(List fruits){
+  List a=[];
+  for(int b=0; b<fruits.length; b++){
+    if(fruits[b]=='apple'){
+      a.add(b);
+    }
+  }
+  return a;
+}
 
-void main() {}
+void main() {
+  print(func(['apple','arbuz','apple','apple']));
+}
