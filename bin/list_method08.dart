@@ -7,12 +7,13 @@
         list: return answer
 */
 List func(List fruits){
-  for(int a=0; a<fruits.length; a++){
+  int b=fruits.length;
+  for(int a=0; a<b; a++){
     fruits.remove('apple');
   }
   return fruits;
 }
 
 void main() {
-  print(func(['apple','hello','apple','arbuz','apple']));
+  print(func(['apple','apple','apple']));
 }
