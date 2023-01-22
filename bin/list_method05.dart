@@ -10,9 +10,6 @@
         list: return answer
 */
 List func(List numbers1, List numbers2){
-  numbers2.add(numbers1.last);
-  int a=numbers1.last;
-  numbers1.remove(a);
   List x=numbers1+numbers2;
   return x;
 }
