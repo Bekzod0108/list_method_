@@ -7,9 +7,9 @@
     Returns:
         list: return answer
 */
-List func(List numbers, int i){
-  List a=[numbers[i]];
-  return a;
+int func(List numbers, int i){
+  
+  return numbers[i];
 }
 
 void main() {
